@@ -26,6 +26,10 @@
 
     </h4>
 
+    <h4 style="background-color: red" id="error_id">
+
+    </h4>
+
         <button onclick="test()">
             Refresh
         </button>
@@ -95,7 +99,12 @@ var test = function() {
 // IIFE
 (function() {
     document.addEventListener('DOMContentLoaded', function(){
-        test();
+        try{
+            test();
+        }catch(e){
+            document.getElementById('error_id').innerText = e.stack;
+        }
+        
     })
 })();
 </script>
