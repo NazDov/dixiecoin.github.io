@@ -15,30 +15,69 @@
 </head>
 <body>
 
-    <div id="container">
-        <div id="top" style="
-                    margin:  auto;
-                    width: 40%;
-                    text: none;
-                    color: #FF9800;"> 
-           
-            <a href="itms-services://?action=download-manifest&url=https://nazdov.github.io/manifest.plist" style="
-                text-decoration:  none;
-                color: #ff9100;
-                position:  relative;
-            ">
-                <img src="nazdov.github.io/iTunesArtwork.jpg" width="128">
-                <h4 style="
-                        margin:  auto;
-                        text-align:  center;
-                    ">
-                104mobile.ipa download link
-                </h4>
-            </a>
-          </div>
-    </div>
-    
+    <h4 id="inner">
+
+    </h4>
+
+    <h4 id="outer">
+
+        </h4>
+
+        <button onclick="test()">
+            Refresh
+        </button>
   
 </body>
+
+<script>
+    // innerWidth
+var screen_viewport_inner = function() {
+    var widthInner = window.innerWidth
+    || document.documentElement.clientWidth
+    || document.body.clientWidth;
+
+    var heightInner = window.innerHeight
+    || document.documentElement.clientHeight
+    || document.body.clientHeight;
+    return {
+        width: widthInner,
+        height: heightInner
+    }
+};
+
+
+// outerWidth
+var screen_viewport_outer = () => {
+    var widthOuter = window.outerWidth
+    || document.documentElement.clientWidth
+    || document.body.clientWidth;
+
+    var heightOuter = window.outerHeight
+    || document.documentElement.clientHeight
+    || document.body.clientHeight;
+    return {
+        width: widthOuter,
+        height: heightOuter
+    }
+};
+
+
+// testing
+var test = function() {
+    var innerObj = document.getElementById('inner');
+    var i_obj = screen_viewport_inner();
+    innerObj.innerText = JSON.stringify(i_obj);
+    var o_obj = screen_viewport_outer();
+    var outerObj = document.getElementById('inner');
+    outerObj.innerText = JSON.stringify(o_obj);
+};
+
+// IIFE
+(function() {
+    document.addEventListener('DOMContentLoaded', function(){
+        test();
+    })
+})();
+</script>
 
 </html>
