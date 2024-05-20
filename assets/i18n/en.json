@@ -1,0 +1,47 @@
+{
+  "Header.Item1": "About $DIXIE",
+  "Header.Item2": "How to Buy",
+  "Header.Item3": "Tokenomics",
+  "Header.Item4": "Contacts",
+  "Banner.Pretitle": "Hello! Welcome to $DIXIECOIN",
+  "Banner.Description": "<span class='underline'>DixieCoin</span> - the new cryptocurrency on <span class='underline'>Base Chain</span> is here to provide you with low fees and fast transaction speed to help you enter the next phase of <span class='underline'>decentralized economy</span> and crypto adoption.",
+  "Banner.ActionBtn": "Buy $DIXIE",
+  "AboutMe.Title": "About $DIXIE",
+  "AboutMe.Paragraphs": [
+    "Welcome to <span class='underline'>DixieCoin</span>, where innovation meets loyalty in the world of cryptocurrency. Named after our beloved family companion, <span class='underline'>the French Bulldog Dixie</span>, our project embodies the same spirit of companionship, trust, and reliability.\n\n<br/><br/>At <span class='underline'>DixieCoin</span>, we're not just another cryptocurrency. We're a community-driven initiative focused on building a secure, transparent, and accessible platform for enthusiasts, investors, and developers alike. Our goal is to create a space where everyone, from seasoned traders to newcomers, can participate in the exciting world of digital assets with confidence.<br/><br/> \n\n Join the <span class='underline'>DixieCoin</span> family today and experience the difference for yourself!"
+  ],
+  "HowTo.Title": "How to Buy",
+  "HowTo.Step1.Title": "SET UP A WALLET",
+  "HowTo.Step1.Description": "Install a crypto wallet compatible with <span class='underline'>Base Chain </span>\n, such as <span class='underline'>MetaMask</span> or <span class='underline'>Coinbase Wallet</span>,\n and add <span class='underline'>Ethereum (ETH)</span> to it.",
+  "ActiveBtn.Download1": "Download Metamask",
+  "OR": "OR",
+  "ActiveBtn.Download2": "Coinbase Wallet",
+  "HowTo.Step2.Title": "GET SOME BASE ETH",
+  "HowTo.Step2.Description": "Bridge over <span class=\"underline\">Ethereum (ETH)</span> directly to the\n <span class=\"underline\">Base Chain</span> or send it to your\n Ethereum wallet and bridge <span class=\"underline\">ETH to Base</span> via the offical\n <span class=\"underline\">Coinbase bridge</span> or the Orbiter Finance bridge.",
+  "HowTo.Step2.ActiveBtn": "Bridge $ETH",
+  "HowTo.Step3.Title": "SWAP ETH FOR $DIXIE",
+  "HowTo.Step3.Description": "Head to <span class=\"underline\">Uniswap</span> and specify the amount of\n <span class=\"underline\">ETH</span> to exchange,\n  review the <span class=\"underline\">transaction details</span>, edit slippage if necessary and execute the swap.",
+  "HowTo.Step3.ActiveBtn": "Swap $ETH",
+
+  "Tokenomics.Title": "Tokenomics",
+  "Tokenomics.Supply.Title": "$ DIXIE Supply",
+  "Tokenomics.Tax.Title": "BUY|SELL TAX",
+  "Tokenomics.Airdrop.Title": "5% Airdrop & Charity",
+  "Tokenomics.Airdrop.Description": "Upon launch some 2% of the tokens will be distributed across top wallets in base ecosystem.\n <br/>\n 25 Million DIXIE tokens will be reserved for charity donations,\n such as supporting Ukrainian Army <img class=\"pb-1\" src=\"assets/icons/ukraine-favicon.png\" width=\"16px\">",
+  "Tokenomics.Dev.Title": "3% DEV & <span class=\"text-slate\">2% Marketing</span>",
+  "Tokenomics.Dev.Description": "These 3% tokens will be utilized to compensate any development efforts.\n 2% of the funds will be allocated towards marketing efforts and listing on exchanges (CEX'es).",
+
+
+  "FeatureProjects.Label": "Featured Project",
+
+  "OtherProjects.Title": "Incoming projects",
+  "OtherProjects.DixieBase.Title": "DIXIE<span class=\"underline\">BASE</span>: Empowering the Base Network Ecosystem",
+  "OtherProjects.DixieBase.Description": "Welcome to <span class=\"underline\">DixieBase</span>, the revolutionary decentralized application (dApp) that is set to\n transform the <span class=\"underline\">Base Network</span> ecosystem. Built on the foundation of\n <span class=\"underline\">DixiCoin</span> token,\n DixieBase is poised to become the go-to platform for staking and swapping within the <span class=\"underline\">Base Network </span> community.",
+
+
+  "Contact.Pretitle": "What’s Next",
+  "Contact.Title": "Get in touch!",
+  "Contact.Content": "$ DIXIE will be so happy if you want to talk about new opportunities. Please dont hesitate to reach out and subscribe to our socials.",
+  "Contact.Btn": "Say Hello",
+  "Contact.AllRightsReserved": "Copyright © <!-- -->2024<!-- --> DIXIECOIN. All Rights Reserved."
+}

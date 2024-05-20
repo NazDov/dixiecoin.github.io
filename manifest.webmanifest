@@ -1,0 +1,41 @@
+{
+  "name": "DixieCoin - Home Page",
+  "short_name": "DixieCoin - Home Page",
+  "theme_color": "#1976d2",
+  "background_color": "#fafafa",
+  "display": "standalone",
+  "scope": "./",
+  "start_url": "./",
+  "icons": [
+    {
+      "src": "assets/icons/icon-64x64.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "assets/icons/icon-96x96.ico",
+      "sizes": "96x96",
+      "type": "image/x-icon",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "assets/icons/icon-128x128.ico",
+      "sizes": "128x128",
+      "type": "image/x-icon",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "assets/icons/icon-256x256.ico",
+      "sizes": "256x256",
+      "type": "image/x-icon",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "assets/icons/icon-512x512.ico",
+      "sizes": "512x512",
+      "type": "image/x-icon",
+      "purpose": "maskable any"
+    }
+  ]
+}
